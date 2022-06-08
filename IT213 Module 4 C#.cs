@@ -1,3 +1,6 @@
+/* This code has two functions. 1. Locate and return the largest value in an integer array.
+2. Loop through the given integer array, check each value for even/odd and return appropriate word in a string array.
+Expected output is at the bottom. */
 
 using System;
 
@@ -44,3 +47,18 @@ namespace IT213M4_Graves_CS
         }
     }
 }
+
+/* Expected output: 
+56, 77, 23, 12, 88, 59, 97, 33, 38, 64
+The largest number in the array is 97 located at array index 6.
+The number were:
+56 is even
+77 is odd
+23 is odd
+12 is even
+88 is even
+59 is off
+97 is odd
+33 is odd
+38 is even
+64 is even */
